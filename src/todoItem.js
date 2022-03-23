@@ -13,8 +13,6 @@ const TodoItem = ({item, onDeleteText}) => {
         onDeleteText(item)
     }
     return (
-        // <List>
-
         <ListItem
             key={item.timestamp.toString()}
             secondaryAction={
@@ -34,7 +32,6 @@ const TodoItem = ({item, onDeleteText}) => {
                 />
             <li key={item.timestamp.toString()}>{item.task}</li>
         </ListItem>
-        // </List>
     );
 };
 
