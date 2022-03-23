@@ -21,11 +21,9 @@ const TodoItem = ({item, onDeleteText}) => {
                   <DeleteTwoToneIcon  onClick={deleter}/>
               </IconButton>
             }
-            // disablePadding
           >
             <Checkbox
                   edge="start"
-                  // checked={}
                   tabIndex={-1}
                   // disableRipple
                   inputProps={{ 'aria-labelledby': labelId }}
